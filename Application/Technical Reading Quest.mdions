@@ -1,5 +1,6 @@
-1. In "Laying the foundations", Ryan covers a number of steps that he'll walk through. What are they?
+# 1. In "Laying the foundations", Ryan covers a number of steps that he'll walk through. What are they?
 create the foundations of the subscription engine.
+
 *create a brand new engine using the rails plugin new generator, which will create our engine and create a dummy application inside the engine. 
 	-The dummy application inside the engine will be used to test the engine’s functionality, pretending for the duration of the tests that the engine is actually mounted inside a 	real application.
 	-Having this in an engine and not an application allows us to utilize the same functionality in other applications later on and keep the code subscriptions separate from other 	code.
@@ -11,7 +12,8 @@ create the foundations of the subscription engine.
 *Write another group of features which will handle user sign in, sign up and sign out.
 	-Segue into our work in the next chapter, in which we’ll actually do some scoping!
 
-2. What's a Rails Engine?
+# 2. What's a Rails Engine?
+
 Engines can be considered miniature applications that provide functionality to their host applications. A Rails application is actually just a "supercharged" engine, with the Rails::Application class inheriting a lot of its behavior from Rails::Engine.
 
 Therefore, engines and applications can be thought of almost the same thing, just with subtle differences, as you'll see throughout this guide. Engines and applications also share a common structure.
