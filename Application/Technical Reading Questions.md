@@ -51,12 +51,12 @@
 > NoMethodError:
 >   undefined method `root_path' for #<ActionDispatch::...>
 >
-> The subscribem method inside the spec is an ActionDispatch::Routing::RoutesProxy object which provides a proxy object to the routes of the engine. Calling root_url on this routing proxy object should return the root path of the engine. Calling root_path without the subscribem prefix – without the routing proxy – in the test will return the root of the application.
+> 4. The subscribem method inside the spec is an ActionDispatch::Routing::RoutesProxy object which provides a proxy object to the routes of the engine. Calling root_url on this routing proxy object should return the root path of the engine. Calling root_path without the subscribem prefix – without the routing proxy – in the test will return the root of the application.
 >
-> Run Spec: rspec spec/features/accounts/sign_up_spec.rb 
+> 5. Run Spec: rspec spec/features/accounts/sign_up_spec.rb 
 >
-> The reason that this test is failing is because we don’t currently have a root definition inside the engine’s routes. So let’s define one now inside config/routes.rb like this:
+> 6. The reason that this test is failing is because we don’t currently have a root definition inside the engine’s routes. So let’s define one now inside config/routes.rb like this:
 >
-> Subscribem::Engine.routes.draw do 
-> root :to => "dashboard#index"
-> end
+> 7. Subscribem::Engine.routes.draw do 
+>    root :to => "dashboard#index"
+>    end
