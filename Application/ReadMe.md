@@ -1,7 +1,8 @@
-###Adrienne Rawlinson###
+#Adrienne Rawlinson#
 
+##Bio: 
 
-##Index##
+##Index
 
 
 ### [**Resume:**](https://github.com/dancingwolfeyes/Ada-Dev/blob/master/Application/Resume.md)
