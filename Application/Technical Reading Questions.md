@@ -29,11 +29,11 @@
 
 ### **2. What's a Rails Engine?**
 
-> Engines can be considered miniature applications that provide functionality to their host applications. A Rails application is actually just a "supercharged" engine, with the Rails::Application class inheriting a lot of its behavior from Rails::Engine.
+> Engines can be considered miniature applications that provide functionality to their host applications. A Rails application is actually just a "supercharged" engine, with the _Rails::Application_ class inheriting a lot of its behavior from _Rails::Engine_.
 
 > Therefore, engines and applications can be thought of almost the same thing, just with subtle differences, as you'll see throughout this guide. Engines and applications also share a common structure.
 
-> Engines are also closely related to plugins where the two share a common lib directory structure and are both generated using the rails plugin new generator. The difference being that an engine is considered a "full plugin" by Rails as indicated by the --full option that's passed to the generator command, but this guide will refer to them simply as "engines" throughout. An engine can be a plugin, and a plugin can be an engine.
+> Engines are also closely related to plugins where the two share a common lib directory structure and are both generated using the rails plugin new generator. The difference being that an engine is considered a "full plugin" by Rails as indicated by the --full option that's passed to the generator command, but this guide will refer to them simply as "engines" throughout. An engine **can** be a plugin, and a plugin **can** be an engine.
 
 
 ### **3.What command do we need to write to create a new rails plugin, with a dummy application and without an isolated namespace?**
