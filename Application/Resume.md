@@ -1,8 +1,11 @@
-# **Adrienne Rawlinson**
-## **632 SW 135th St.**
-## **Seattle, WA 98146**
-## **206.356.4335**
-## **adrienne@rawterp.com**
+**Adrienne Rawlinson**
+======================
+**632 SW 135th St.**
+**Seattle, WA 98146**
+**206.356.4335**
+**adrienne@rawterp.com**
+------------------------
+
 
 ## **Skills**
 
