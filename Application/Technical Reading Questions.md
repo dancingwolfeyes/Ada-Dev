@@ -3,7 +3,7 @@
 
 ### **1. In "Laying the foundations", Ryan covers a number of steps that he'll walk through. What are they? Create the foundations of the subscription engine.**
 
-> 1.Create a brand new engine using the rails plugin new generator, which will create our engine and create a dummy application inside the engine. 
+> 1.Create a brand new engine using the _rails plugin new_ generator, which will create our engine and create a dummy application inside the engine. 
 >
 >> -The dummy application inside the engine will be used to test the engine’s functionality, pretending for the duration of the tests that the engine is actually mounted inside a 	real application.
 >>
