@@ -1,3 +1,6 @@
+## *Citation: All answers to the following questions are quotes taken directly from 'Multitenancy with Rails' and ['Getting Started with Engines Guide'](http://guides.rubyonrails.org/engines.html)*
+
+
 ### **1. In "Laying the foundations", Ryan covers a number of steps that he'll walk through. What are they? Create the foundations of the subscription engine.**
 
 > *create a brand new engine using the rails plugin new generator, which will create our engine and create a dummy application inside the engine. 
