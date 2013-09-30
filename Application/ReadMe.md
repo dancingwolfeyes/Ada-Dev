@@ -4,23 +4,15 @@
 ##Index##
 
 
-_Resume_
+### **Resume**
 
-
-
-
-
-__Ada Application Questions__ 
+### **Ada Application Questions:** 
 
 [Video Answers](http://www.youtube.com/watch?v=OCmGPdN1hq0&sns=em)
 
+### **Technical Reading Questions**
 
-
-*Technical Reading Questions*
-
-
-
-**Logic Puzzle**
+### **Logic Puzzle**
 
 
 
