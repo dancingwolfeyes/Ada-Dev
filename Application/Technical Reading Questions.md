@@ -38,25 +38,25 @@
 
 ### **3.What command do we need to write to create a new rails plugin, with a dummy application and without an isolated namespace?**
 
-> rails plugin new <name of plugin> \ --dummy-path spec/dummy --skip-test-unit
+> _rails plugin new <name of plugin> \ --dummy-path spec/dummy --skip-test-unit_
 
 ### **4.What's the first feature being built? What steps need to be taken ("tested") to verify it's working?**
 
 > 1. Account sign up.
 >
-> 2. First Run Spec: rspec spec/features/accounts/sign_up_spec.rb 
+> 2. First Run Spec: _rspec spec/features/accounts/sign_up_spec.rb_ 
 >
 > 3. We should see this output:
-> Failure/Error: visit subscribem.root_path 
-> NoMethodError:
->   undefined method `root_path' for #<ActionDispatch::...>
+> _Failure/Error: visit subscribem.root_path_ 
+> _NoMethodError:_
+>   _undefined method `root_path' for #<ActionDispatch::...>_
 >
-> 4. The subscribem method inside the spec is an ActionDispatch::Routing::RoutesProxy object which provides a proxy object to the routes of the engine. Calling root_url on this routing proxy object should return the root path of the engine. Calling root_path without the subscribem prefix – without the routing proxy – in the test will return the root of the application.
+> 4. The _subscribem_ method inside the spec is an _ActionDispatch::Routing::RoutesProxy_ object which provides a proxy object to the routes of the engine. Calling _root_url_ on this routing proxy object **should** return the root path of the engine. Calling _root_path_ without the _subscribem_ prefix – without the routing proxy – in the test will return the root of the application.
 >
-> 5. Run Spec: rspec spec/features/accounts/sign_up_spec.rb 
+> 5. Run Spec: _rspec spec/features/accounts/sign_up_spec.rb_ 
 >
-> 6. The reason that this test is failing is because we don’t currently have a root definition inside the engine’s routes. So let’s define one now inside config/routes.rb like this:
+> 6. The reason that this test is failing is because we don’t currently have a _root_ definition inside the engine’s routes. So let’s define one now inside _config/routes.rb_ like this:
 >
-> 7. Subscribem::Engine.routes.draw do 
->    root :to => "dashboard#index"
->    end
+> 7. _Subscribem::Engine.routes.draw do_ 
+>    _root :to => "dashboard#index"_
+>    _end_
