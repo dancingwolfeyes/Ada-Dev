@@ -3,11 +3,11 @@
 
 **1.Why is Susannah going to the Harvard Market QFC most of the time?**
 
-It *could* be force of habbit. Also, most companies are focused on improving their sales or services based on informaton gleaned from meta data. In other words our habbits in statistical form.
+It *could* be force of habbit. 
 
 **2.How did you arrive at that answer?**
 
-It is easy to let your habbits take you on an auto pilot trip. Having lived on Capital Hill at one point, I did the same...mostly when I was to tired to think strait.
+It is easy to let your habbits take you on an 'auto pilot trip'. Having lived on Capital Hill at one point, I did the same...mostly when I was to tired to think strait. Also, most companies are focused on improving their sales or services based on informaton gleaned from meta data. In other words our habbits in statistical form.
 
 **3.What other possible explanations are there?**
 
