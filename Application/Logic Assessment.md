@@ -15,8 +15,8 @@ It *could* have been that she walked to the station and was delayed by cross wal
 
 It *could* have been that she rides a surface street bus to the station and had that prior bus schedule affect her timing.
 
-It *could* have been that there was a cute check out worker at the Harvard Market that she is drawn to.
+It *could* have been that there was a cute worker at the Harvard Market that she is drawn to.
 
 It *could* have been closer to other places she liked to visit while in the area.
 
-It *could* be a lot of other things. However, there is *no correct answer to this question at this time*. It does not provide enough information to make a solid conclusion. More study would be required. 
+It *could* be a lot of other things. However, there is *no correct answer to this question at this time*. The scenario does not provide enough information to make a solid conclusion. More study would be required. 
