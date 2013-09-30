@@ -1,5 +1,4 @@
-# 1. In "Laying the foundations", Ryan covers a number of steps that he'll walk through. What are they?
-create the foundations of the subscription engine.
+### **1. In "Laying the foundations", Ryan covers a number of steps that he'll walk through. What are they? Create the foundations of the subscription engine.**
 
 *create a brand new engine using the rails plugin new generator, which will create our engine and create a dummy application inside the engine. 
 	-The dummy application inside the engine will be used to test the engine’s functionality, pretending for the duration of the tests that the engine is actually mounted inside a 	real application.
@@ -12,7 +11,7 @@ create the foundations of the subscription engine.
 *Write another group of features which will handle user sign in, sign up and sign out.
 	-Segue into our work in the next chapter, in which we’ll actually do some scoping!
 
-# 2. What's a Rails Engine?
+### **2. What's a Rails Engine?**
 
 Engines can be considered miniature applications that provide functionality to their host applications. A Rails application is actually just a "supercharged" engine, with the Rails::Application class inheriting a lot of its behavior from Rails::Engine.
 
@@ -20,10 +19,12 @@ Therefore, engines and applications can be thought of almost the same thing, jus
 
 Engines are also closely related to plugins where the two share a common lib directory structure and are both generated using the rails plugin new generator. The difference being that an engine is considered a "full plugin" by Rails as indicated by the --full option that's passed to the generator command, but this guide will refer to them simply as "engines" throughout. An engine can be a plugin, and a plugin can be an engine.
 
-3.What command do we need to write to create a new rails plugin, with a dummy application and without an isolated namespace?
+### **3.What command do we need to write to create a new rails plugin, with a dummy application and without an isolated namespace?**
+
 rails plugin new <name of plugin> \ --dummy-path spec/dummy --skip-test-unit
 
-4.What's the first feature being built? What steps need to be taken ("tested") to verify it's working?
+### **4.What's the first feature being built? What steps need to be taken ("tested") to verify it's working?**
+
 Account sign up.
 
 First Run Spec: rspec spec/features/accounts/sign_up_spec.rb 
