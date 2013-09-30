@@ -1,6 +1,6 @@
 #Adrienne Rawlinson#
 
-##Bio: I am a Knitter, Musician, Dancer, and Sign Language Interpreter. I would love to become a Computer Programmer!
+####Bio: I am a Knitter, Musician, Dancer, and Sign Language Interpreter. I would love to become a Computer Programmer!
 
 ##Index
 
